@@ -1,5 +1,5 @@
-import { counterDecrement, counterIncrement, counterSetZero } from '../Redux/ActionTypes.js'
-import { incrementAction, decrementAction, setZeroAction } from '../Redux/ActionCreators.js'
+import { counterDecrement, counterIncrement, counterSetZero } from '../Redux/Counter/ActionTypes.js'
+import { incrementAction, decrementAction, setZeroAction } from '../Redux/Counter/ActionCreators.js'
 
 
 const decBtn = document.querySelector(".dec");
